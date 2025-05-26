@@ -2,9 +2,9 @@
 
 int main() {
     // Задані значення
-    int a = 20;
-    int b = -10;
-    int c = 0;
+    const a = 20;
+    const b = -10;
+    const c = 0;
 
     // Обчислення виразу
     double y = (double)(a + b * c) / (2 * a - b - c) + (double)a / (b + 2);
